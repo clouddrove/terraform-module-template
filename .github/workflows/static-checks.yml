@@ -70,4 +70,4 @@ jobs:
           terraform_version: ${{ needs.versionExtract.outputs.maxVersion }}
 
       - name: Check Terraform format changes
-        run: terraform fmt --recursive -check=tru
+        run: terraform fmt --recursive -check=true
