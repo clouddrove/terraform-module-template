@@ -1,5 +1,3 @@
-
-# Cloud Posse must review any changes to GitHub actions
 .github/*     @clouddrove/approvers
 
 *     @clouddrove/clouddrovians @clouddrove/approvers
