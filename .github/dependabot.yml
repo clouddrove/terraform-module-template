@@ -30,6 +30,19 @@ updates:
     open-pull-requests-limit: 3
 
   - package-ecosystem: "terraform" # See documentation for possible values
+    directory: "/_example/basic" # Location of package manifests
+    schedule:
+      interval: "weekly"
+    # Add assignees
+    assignees:
+      - "anmolnagpal"
+    # Add reviewer
+    reviewers:
+      - "anmolnagpal"
+    # Allow up to 3 open pull requests for pip dependencies
+    open-pull-requests-limit: 3
+
+  - package-ecosystem: "terraform" # See documentation for possible values
     directory: "/_example/complete" # Location of package manifests
     schedule:
       interval: "weekly"
