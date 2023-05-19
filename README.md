@@ -4,13 +4,14 @@
 <h1 align="center">
     Terraform Module Template
 </h1>
-
+[![Latest Release](https://img.shields.io/github/release/clouddrove/terraform-module-template.svg)](https://github.com/clouddrove/terraform-module-template/releases/latest)
 <p align="center" style="font-size: 1.2rem;"> 
     Terraform template to create new modules.
      </p>
 
 <p align="center">
 
+<a href="https://github.com/clouddrove/terraform-module-template/releases/latest">![Latest Release](https://img.shields.io/github/release/clouddrove/terraform-module-template.svg)</a>
 <a href="LICENSE.md">
   <img src="https://img.shields.io/badge/License-APACHE-blue.svg" alt="Licence">
 </a>
