@@ -4,7 +4,7 @@
 <h1 align="center">
     Terraform Module Template
 </h1>
-[![Latest Release](https://img.shields.io/github/release/clouddrove/terraform-module-template.svg)](https://github.com/clouddrove/terraform-module-template/releases/latest)
+
 <p align="center" style="font-size: 1.2rem;"> 
     Terraform template to create new modules.
      </p>
