@@ -5,7 +5,39 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 3
+    assignees:
+    - "anmolnagpal"
+    reviewers:
+    - "anmolnagpal"
+
+  - package-ecosystem: "terraform" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    # Add assignees
+    assignees:
+      - "anmolnagpal"
+    # Add reviewer
+    reviewers:
+      - "anmolnagpal"
+    # Allow up to 3 open pull requests for pip dependencies
+    open-pull-requests-limit: 3
+
+  - package-ecosystem: "terraform" # See documentation for possible values
+    directory: "/_example/complete" # Location of package manifests
+    schedule:
+      interval: "weekly"
+    # Add assignees
+    assignees:
+      - "anmolnagpal"
+    # Add reviewer
+    reviewers:
+      - "anmolnagpal"
+    # Allow up to 3 open pull requests for pip dependencies
+    open-pull-requests-limit: 3
