@@ -11,7 +11,9 @@
 
 <p align="center">
 
-<a href="https://github.com/clouddrove/terraform-module-template/releases/latest">![Latest Release](https://img.shields.io/github/release/clouddrove/terraform-module-template.svg)</a>
+<a href="https://github.com/clouddrove/terraform-module-template/releases/latest">
+<img src="https://img.shields.io/github/release/clouddrove/terraform-module-template.svg" alt="Latest Release">
+</a>
 <a href="">![tfsec](https://github.com/clouddrove/terraform-module-template/actions/workflows/tfsec.yml/badge.svg)</a>
 <a href="LICENSE.md">
   <img src="https://img.shields.io/badge/License-APACHE-blue.svg" alt="Licence">
