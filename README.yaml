@@ -35,8 +35,8 @@ prerequesties:
     version: ">= 1.5.4"
 
 providers:
-  - name: gcp
-    url: https://cloud.google.com/
+  - name: aws
+    url: https://aws.amazon.com/
     version: ">= 5.11.0"
 
 #  description of this project
