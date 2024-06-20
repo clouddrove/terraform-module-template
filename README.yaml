@@ -42,9 +42,6 @@ providers:
 #  description of this project
 description: |-
   Terraform module template to create new modules using this as baseline
-# extra content
-include:
-  - "terraform.md"
 
 # How to use this project
 # How to use this project
