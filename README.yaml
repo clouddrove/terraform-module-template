@@ -15,20 +15,30 @@ github_repo: clouddrove/terraform-module-template
 
 # Badges to display
 badges:
-  - name: "Latest Release"
-    image: "https://img.shields.io/github/release/clouddrove/terraform-module-template.svg"
-    url: "https://github.com/clouddrove/terraform-module-template/releases/latest"
+  - name: "Terraform"
+    image: "https://img.shields.io/badge/Terraform-v0.13-green"
+    url: "https://www.terraform.io"
   - name: "tfsec"
     image: "https://github.com/clouddrove/terraform-module-template/actions/workflows/tfsec.yml/badge.svg"
-    url: ""
+    url: "https://github.com/clouddrove/terraform-module-template/actions/workflows/tfsec.yml"
   - name: "Licence"
     image: "https://img.shields.io/badge/License-APACHE-blue.svg"
     url: "LICENSE.md"
+  - name: "Changelog"
+    image: "https://img.shields.io/badge/Changelog-blue"
+    url: "CHANGELOG.md"
 
+# Prerequesties to display
 prerequesties:
-  - name: Terraform 1.4.6
+  - name: Terraform
     url: https://learn.hashicorp.com/terraform/getting-started/install.html
-    
+    version: ">= 1.5.4"
+
+providers:
+  - name: gcp
+    url: https://cloud.google.com/
+    version: ">= 5.11.0"
+
 #  description of this project
 description: |-
   Terraform module template to create new modules using this as baseline
