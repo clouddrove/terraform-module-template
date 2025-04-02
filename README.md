@@ -5,7 +5,6 @@
 </h1>
 
 <p align="center" style="font-size: 1.2rem;">
-
     With our comprehensive DevOps toolkit - streamline operations, automate workflows, enhance collaboration and, most importantly, deploy with confidence.
 </p>
 
