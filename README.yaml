@@ -28,7 +28,7 @@ badges:
 prerequesties:
   - name: Terraform 1.4.6
     url: https://learn.hashicorp.com/terraform/getting-started/install.html
-    
+
 #  description of this project
 description: |-
   Terraform module template to create new modules using this as baseline
