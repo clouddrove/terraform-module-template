@@ -5,9 +5,9 @@
 </h1>
 
 <p align="center" style="font-size: 1.2rem;">
+
     With our comprehensive DevOps toolkit - streamline operations, automate workflows, enhance collaboration and, most importantly, deploy with confidence.
 </p>
-
 
 <p align="center">
 
@@ -48,14 +48,15 @@
 We are a group of DevOps engineers & architects, joining hands in this ever evolving digital landscape. With our strong belief in Automation; just like microservices, always on the lookout to split the the infrastructure into smaller connected resources (database, cluster and more) which could be standardized, are manageable, scalable, secure & follow industry best practices. 
 
 
+
 This module includes Terraform open source, examples, and automation tests (for better understanding), which would help you create and improve your infrastructure with minimalistic coding.
-
-
 
 
 ## Prerequisites and Providers
 
+
 This table contains both Prerequisites and Providers:
+
 
 | Description   | Name                                       | Version   |
 |:-------------:|:-------------------------------------------:|:---------:|
@@ -122,17 +123,6 @@ Big thanks to our contributors for elevating our project with their dedication a
 - **Clear Commit Messages:** Write clear and concise commit messages to facilitate understanding.
 - **Thorough Testing:** Test your changes thoroughly before submitting a pull request.
 - **Documentation Updates:** Include relevant documentation updates if your changes impact it.
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Feedback 
